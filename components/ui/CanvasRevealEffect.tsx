@@ -49,6 +49,7 @@ export const CanvasRevealEffect = ({
   );
 };
 
+// DotMatrix component 
 interface DotMatrixProps {
   colors?: number[][];
   opacities?: number[];
