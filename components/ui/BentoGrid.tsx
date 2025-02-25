@@ -12,6 +12,7 @@ import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 
+// BentoGrid and BentoGridItem are the same as Grid and GridItem
 export const BentoGrid = ({
   className,
   children,
