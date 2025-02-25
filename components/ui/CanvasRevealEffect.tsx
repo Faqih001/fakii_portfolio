@@ -49,7 +49,7 @@ export const CanvasRevealEffect = ({
   );
 };
 
-// DotMatrix component 
+// DotMatrix Interface for props 
 interface DotMatrixProps {
   colors?: number[][];
   opacities?: number[];
@@ -59,6 +59,7 @@ interface DotMatrixProps {
   center?: ("x" | "y")[];
 }
 
+// DotMatrix component 
 const DotMatrix: React.FC<DotMatrixProps> = ({
   colors = [[0, 0, 0]],
   opacities = [0.04, 0.04, 0.04, 0.04, 0.04, 0.08, 0.08, 0.08, 0.08, 0.14],
