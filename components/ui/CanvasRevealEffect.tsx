@@ -178,6 +178,7 @@ const DotMatrix: React.FC<DotMatrixProps> = ({
   );
 };
 
+// ShaderMaterial component
 type Uniforms = {
   [key: string]: {
     value: number[] | number[][] | number;
