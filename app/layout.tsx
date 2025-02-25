@@ -7,6 +7,7 @@ import { ThemeProvider } from "./provider";
 // Font Inter Latin subset 
 const inter = Inter({ subsets: ["latin"] });
 
+// Metadata for the page
 export const metadata: Metadata = {
   title: "Adrian's Portfolio",
   description: "Modern & Minimal JS Mastery Portfolio",
