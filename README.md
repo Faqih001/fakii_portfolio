@@ -69,8 +69,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/portfolio.git
-cd portfolio
+git clone https://github.com/Faqih001/fakii_portfolio.git
+cd fakii_portfolio
 ```
 
 **Installation**
