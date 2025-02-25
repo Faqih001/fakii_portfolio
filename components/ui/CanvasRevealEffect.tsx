@@ -293,6 +293,7 @@ const ShaderMaterial = ({
   );
 };
 
+// Shader component 
 const Shader: React.FC<ShaderProps> = ({ source, uniforms, maxFps = 60 }) => {
   return (
     <Canvas className="absolute inset-0  h-full w-full">
