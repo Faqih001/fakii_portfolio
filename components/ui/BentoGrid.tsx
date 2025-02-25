@@ -33,6 +33,7 @@ export const BentoGrid = ({
   );
 };
 
+// BentoGridItem is the same as GridItem 
 export const BentoGridItem = ({
   className,
   id,
