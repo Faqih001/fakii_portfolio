@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { motion, stagger, useAnimate } from "framer-motion";
 import { cn } from "@/lib/utils";
 
+// TextGenerateEffect component is a component that takes a string of words and generates a text effect on it.
 export const TextGenerateEffect = ({
   words,
   className,
