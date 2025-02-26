@@ -6,6 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 // Hero component that uses Spotlight, TextGenerateEffect and MagicButton
 const Hero = () => {
+  // return the Hero component
   return (
     <div className="pb-20 pt-36">
       {/**
