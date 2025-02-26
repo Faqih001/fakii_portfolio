@@ -189,6 +189,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
   );
 };
 
+// Icon component with className prop
 export const Icon = ({ className, ...rest }: any) => {
   return (
     <svg
