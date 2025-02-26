@@ -7,6 +7,7 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
 // Clients component with InfiniteMovingCards component inside
 const Clients = () => {
+  // InfiniteMovingCards component has items, direction, and speed props
   return (
     <section id="testimonials" className="py-20">
       <h1 className="heading">
