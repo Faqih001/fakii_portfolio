@@ -47,6 +47,7 @@ export const TextGenerateEffect = ({
     );
   };
 
+  // The component will return a div with the words that will be animated.
   return (
     <div className={cn("font-bold", className)}>
       {/* mt-4 to my-4 */}
