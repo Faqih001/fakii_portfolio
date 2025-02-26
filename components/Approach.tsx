@@ -69,6 +69,7 @@ const Approach = () => {
 
 export default Approach;
 
+// Card component with title, icon, and des props
 const Card = ({
   title,
   icon,
