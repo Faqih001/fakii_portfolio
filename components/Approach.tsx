@@ -83,6 +83,7 @@ const Card = ({
   des: string;
 }) => {
   const [hovered, setHovered] = React.useState(false);
+  // AceternityIcon component with order prop
   return (
     <div
       onMouseEnter={() => setHovered(true)}
