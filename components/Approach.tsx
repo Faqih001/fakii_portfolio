@@ -5,6 +5,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 // Approach component with Card component and AceternityIcon component inside
 const Approach = () => {
+  // Card component has title, icon, and des props
   return (
     <section className="w-full py-20">
       <h1 className="heading">
