@@ -29,14 +29,15 @@ const RecentProjects = () => {
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
-                <Image
-                  src={item.img}
-                  alt="cover"
-                  className="z-10 absolute bottom-0"
-                  layout="fill"
-                  objectFit="cover"
-                />
-                />
+                  <Image
+                    src={item.img}
+                    alt="cover"
+                    className="z-10 absolute bottom-0"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+      
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
