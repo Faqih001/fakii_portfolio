@@ -5,6 +5,7 @@ import React from "react";
 import { companies, testimonials } from "@/data";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 
+// Clients component with InfiniteMovingCards component inside
 const Clients = () => {
   return (
     <section id="testimonials" className="py-20">
