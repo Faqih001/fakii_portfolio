@@ -1,6 +1,7 @@
 import { gridItems } from "@/data";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
+// Grid component that uses BentoGrid and BentoGridItem
 const Grid = () => {
   return (
     <section id="about">
