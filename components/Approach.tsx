@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
+// Approach component with Card component and AceternityIcon component inside
 const Approach = () => {
   return (
     <section className="w-full py-20">
