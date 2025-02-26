@@ -5,6 +5,7 @@ import MagicButton from "./MagicButton";
 
 // Footer component with MagicButton component inside
 const Footer = () => {
+  // MagicButton component has title, icon, and position props
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       {/* background grid */}
