@@ -27,6 +27,7 @@ export const TextGenerateEffect = ({
     );
   }, [scope.current]);
 
+  // The effect is that the words will appear one by one with a delay of 0.2s between each word.
   const renderWords = () => {
     return (
       <motion.div ref={scope}>
